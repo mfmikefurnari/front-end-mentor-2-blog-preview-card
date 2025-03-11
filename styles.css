@@ -23,21 +23,23 @@
    p{
    color: var(--Gray-950);
    font-weight: 500;
-   margin-top: 5px; 
-   margin-bottom: 5px;     
+   margin-top: 6px; 
+   margin-bottom: 6px;     
   line-height: 1.4;
   
   }
    .card{
     background-color: white;
-    width: 312px;
+    max-width: 380px;
     border:  solid black;
     border-width: 1px;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 6px 6px 0 0px black;
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0px black;
+    font-size: 16px;
+    margin:5%;
   }
   .tag{
     background-color:var(--Yellow) ;
@@ -46,21 +48,21 @@
     padding-top:4px;
     padding-bottom:4px;
     font-weight: 800;
-    font-size: 12px;
-    border-radius: 3px;
+    border-radius: 4px;
   }
   .articleThumb{
     
-    border-radius: 8px;
+    border-radius: 12px;
     
-    margin-bottom: 10px;
+    margin-bottom: 18px;
   }
-  .date{
-    font-size: 12px;  
-    font-weight: 500; 
+  .date{ 
+    
+    font-size: 14px;
+    font-weight: 550; 
   }
   .blogTitle{
-    font-size: 22px;
+    font-size: 24px;
     font-weight:900;
   }
   .blogTitle:hover{
@@ -68,7 +70,6 @@
     cursor: pointer;
   }
   .blogDesc{
-    font-size: 14px;
     font-weight: 500;
     color: var(--Gray-500);
 
@@ -80,12 +81,12 @@
   }
   .avatarText{
    font-weight: 900;
-   font-size: 11px;
+   font-size: 14px;
    margin-left:10px
   }
   .footer{
-    height: 28px;
+    height: 32px;
     display: flex;
     align-items: center; 
-    margin-top: 10px;
+    margin-top: 16px;
   }
