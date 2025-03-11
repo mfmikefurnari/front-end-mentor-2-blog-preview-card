@@ -17,6 +17,7 @@
     height: 100vh;
     display: flex;
     font-family: "Figtree";
+    margin:0;
     
   }
    p{
