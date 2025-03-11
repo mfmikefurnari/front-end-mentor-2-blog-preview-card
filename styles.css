@@ -63,6 +63,10 @@
     font-size: 22px;
     font-weight:900;
   }
+  .blogTitle:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+  }
   .blogDesc{
     font-size: 14px;
     font-weight: 500;
